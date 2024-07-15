@@ -13,5 +13,55 @@
         <p>Gradguate of Computer and Robotics Education from the University of Nigeria Nsukka with Mat no. 2019/813004.</p>
         <p>Aspiring frontend web developer with some skills in HTML and CSS.</p>
     </div>
+
+    <div>
+        <h2>Working with forms and Input types</h2>
+        <p>Fill the form and submit to start your application process.</p>
+        <h3>Personal Information</h3>
+        <form action="forms_page.php">
+            <label for="surname">Surname:</label>
+            <input type="text" id="surname" name="surname">
+            <label for="first_name">First Name:</label>
+            <input type="text" id="first_name" name="first_name">
+            <label for="last_name">Last Name:</label>
+            <input type="text" id="last_name" name="last_name"><br><br>
+            <label for="Date_of_birth">Date Of Birth</label>
+            <input type="date" id="Date_of_birth" name="Date_of_birth"><br><br>
+            <label for="nationality">Nationality</label>
+            <select name="nationality" id="nationality">
+                <option value="none">None</option>
+                <option value="nigeria">Nigeria</option>
+                <option value="france">France</option>
+                <option value="spain">Spain</option>
+                <option value="ghana">Ghana</option>
+                <option value="togo">Togo</option>
+                <option value="canada">Canada</option>
+                <option value="turkey">Turkey</option>
+            </select><br><br>
+            <label for="status">Status:</label>
+            <label for="single">Single</label>
+            <input type="radio" id="single" name="single">
+            <label for="married">Married</label>
+            <input type="radio" id="married" name="married"><br><br>
+            <label for="gender">Gender:</label>
+            <label for="male">Male</label>
+            <input type="radio" id="male" name="male">
+            <label for="female">Female</label>
+            <input type="radio" id="female" name="female"><br><br>
+            <label for="education">Select Education Level:</label>
+            <select name="education" id="education">
+                <option value="none">None</option>
+                <option value="WAEC">Undergraduate</option>
+                <option value="B.Sc">Bachelors Degree</option>
+                <option value="MA">Masters</option>
+                <option value="Phd">Doctorate Degree</option>
+                <option value="Prof.">Proffesor</option>
+            </select>
+            <br><br>
+            <button type="submit" value="submit">Submit</button>
+
+
+        </form>
+    </div>
 </body>
 </html>
