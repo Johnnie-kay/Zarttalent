@@ -18,18 +18,18 @@
         <h2>Working with forms and Input types</h2>
         <p>Fill the form and submit to start your application process.</p>
         <h3>Personal Information</h3>
-        <form action="forms_page.php">
+        <form action="index.html">
             <label for="surname">Surname:</label>
-            <input type="text" id="surname" name="surname">
+            <input type="text" id="surname" name="surname" required>
             <label for="first_name">First Name:</label>
-            <input type="text" id="first_name" name="first_name">
+            <input type="text" id="first_name" name="first_name" required>
             <label for="last_name">Last Name:</label>
-            <input type="text" id="last_name" name="last_name"><br><br>
+            <input type="text" id="last_name" name="last_name" required><br><br>
             <label for="Date_of_birth">Date Of Birth</label>
             <input type="date" id="Date_of_birth" name="Date_of_birth"><br><br>
             <label for="nationality">Nationality</label>
             <select name="nationality" id="nationality">
-                <option value="none">None</option>
+                <option value="none">Select</option>
                 <option value="nigeria">Nigeria</option>
                 <option value="france">France</option>
                 <option value="spain">Spain</option>
@@ -50,7 +50,7 @@
             <input type="radio" id="female" name="female"><br><br>
             <label for="education">Select Education Level:</label>
             <select name="education" id="education">
-                <option value="none">None</option>
+                <option value="none">Select</option>
                 <option value="WAEC">Undergraduate</option>
                 <option value="B.Sc">Bachelors Degree</option>
                 <option value="MA">Masters</option>
